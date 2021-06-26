@@ -17,7 +17,7 @@ variables:
   azureLocation: 'southindia'
   # Terraform settings
   terraformWorkingDirectory: '$(System.DefaultWorkingDirectory)/azureinfra'
-  terraformVersion: '0.12.25'
+  terraformVersion: '1.0.1'
 
 stages:
   - stage: TerraformContinuousIntegration
